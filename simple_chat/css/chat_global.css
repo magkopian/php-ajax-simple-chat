@@ -1,0 +1,32 @@
+/**********************************************\
+* Copyright (c) 2013 Manolis Agkopian          *
+* See the file LICENCE for copying permission. *
+\**********************************************/
+
+body , div, img, p, h1{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 15px auto;
+	position: relative;
+}
+
+#title {
+	margin: 5px auto;
+	text-align: center;
+}
+
+#title h1 {
+	white-space: nowrap;
+	font-size: 40px;
+}
+
+.error {
+	color: red;
+	margin: 5px 0;
+}

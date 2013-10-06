@@ -4,10 +4,10 @@
 * See the file LICENCE for copying permission. *
 \**********************************************/
 
-	session_start(); //Step 0: Don't forget to start the session
-	define('INCLUDED',true); //Step 1: define INCLUDED as true
-	require 'simple_chat/init_chat.php'; //Step 2: require the init_chat.php
-	redirect_if_not_logged_in(); //Step 2.5: if you want to redirect the user to the login form if not logged in, add this line, otherwise a warning will be get displayed
+session_start(); //Step 0: Don't forget to start the session
+define('INCLUDED',true); //Step 1: define INCLUDED as true
+require 'simple_chat/init_chat.php'; //Step 2: require the init_chat.php
+redirect_if_not_logged_in(); //Step 2.5: if you want to redirect the user to the login form if not logged in, add this line, otherwise a warning will be get displayed
 ?>
 <!DOCTYPE html>
 <html>

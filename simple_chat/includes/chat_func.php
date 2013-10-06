@@ -148,5 +148,4 @@ function add_smileys ($msg) {
 
 	return $msg;
 }
-
 ?>

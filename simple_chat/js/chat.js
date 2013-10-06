@@ -68,4 +68,3 @@ $('#toggle_chat').click(function () {
 chat.interval = setInterval(chat.get_messages, 5000); //the chat will be updated every 5 seconds
 chat.lastmsg_timestamp = '-1'; //if the page is reloaded fetch all the messages at once, to do that we set timestamp to -1
 chat.get_messages(); //when page is loaded get the messages immediately
-

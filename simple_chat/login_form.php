@@ -4,31 +4,31 @@
 * See the file LICENCE for copying permission. *
 \**********************************************/
 
-	session_start();
-	define('INCLUDED',true);
-	require 'includes/core_func.php';
-	require 'includes/markup_func.php';
-	
-	if (user_logged_in()) {
-		if (get_last_page() !== false) {
-			header('Location: http://'.get_last_page());
-		}
-		else {
-			header('Location: ../');
-		}
-		die();
-	}
+session_start();
+define('INCLUDED',true);
+require 'includes/core_func.php';
+require 'includes/markup_func.php';
 
-	$msg = '';
-	if (isset($_GET['ref']) && !empty($_GET['ref']) && $_GET['ref'] === 'reg') {
-		$msg = '<p id="message">You have been registered successfully! You can now login.</p>';
+if (user_logged_in()) {
+	if (get_last_page() !== false) {
+		header('Location: http://'.get_last_page());
 	}
-	
-	$errors = array();
-	if (isset($_SESSION['login_errors']) && !empty($_SESSION['login_errors'])) {
-		$errors = $_SESSION['login_errors'];
-		unset($_SESSION['login_errors']);
+	else {
+		header('Location: ../');
 	}
+	die();
+}
+
+$msg = '';
+if (isset($_GET['ref']) && !empty($_GET['ref']) && $_GET['ref'] === 'reg') {
+	$msg = '<p id="message">You have been registered successfully! You can now login.</p>';
+}
+
+$errors = array();
+if (isset($_SESSION['login_errors']) && !empty($_SESSION['login_errors'])) {
+	$errors = $_SESSION['login_errors'];
+	unset($_SESSION['login_errors']);
+}
 ?>
 <!DOCTYPE html">
 <html>

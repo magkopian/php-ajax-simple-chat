@@ -107,7 +107,7 @@ function add_smileys ($msg) {
 	/*
 	* Please note that I am not the owner of any of the smilie icons that I use in this project.
 	* All the smilie icons that I use, are provided free by www.freesmileys.org.
-	* If you don't like the icons that I INCLUDED or you want to add more, 
+	* If you don't like the icons that I included or you want to add more, 
 	* you can use your own or download more from www.freesmileys.org.
 	*/
 

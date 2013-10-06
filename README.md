@@ -11,7 +11,7 @@ This is the <strong>Simple Chat ;)</strong>, a simple AJAX chat application writ
 </p>
 
 <p>
-The <strong>Simple Chat ;)</strong> comes in two different versions. The first, is the full-page version, where the chat window is placed inside your page content. The second is the embedded version, where the chat window is placed on a position-fixed bar, on the down-right side of the browser window. In the embedded version you can hide or show the chat window. A live demo of the <strong>Simple Chat ;)</strong> in both versions is available here.
+The <strong>Simple Chat ;)</strong> comes in two different versions. The first, is the full-page version, where the chat window is placed inside your page content. The second is the embedded version, where the chat window is placed on a position-fixed bar, on the down-right side of the browser window. In the embedded version you can hide or show the chat window. A live demo of the <strong>Simple Chat ;)</strong> in both versions is available <a href="http://magkopian.tk/simple-chat/" title="Simple Chat ;) Demo Page">here</a>.
 </p>
 
 

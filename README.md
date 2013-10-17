@@ -99,7 +99,7 @@ Lastly but not least you have to modify the line <code>$con = @mysqli_connect('h
 <h3>Licensing</h3>
 
 <p>
-My code is licenced under the MIT License, please check the LICENSE file for copying permission. Please note that I do not own any of the code inside the recaptchalib.php file, please check the LICENSE file inside the /simple_chat/recaptcha directory. Also I do not own any of the smileys inside the smileys folder. All the smileys are provided free by the <a href="http://www.freesmileys.org" target="_blank">www.freesmileys.org</a>
+My code is licensed under the MIT Licence, please check the LICENCE file for copying permission. Please note that I do not own any of the code inside the recaptchalib.php file, please check the LICENSE file inside the /simple_chat/recaptcha directory. Also I do not own any of the smileys inside the smileys folder. All the smileys are provided free by the <a href="http://www.freesmileys.org" target="_blank">www.freesmileys.org</a>
 </p>
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/magkopian/php-ajax-simple-chat/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
